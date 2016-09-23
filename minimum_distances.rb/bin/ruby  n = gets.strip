@@ -1,0 +1,21 @@
+#!/bin/ruby
+
+n = gets.strip.to_i
+a = gets.strip
+a = a.split(' ').map(&:to_i)
+i = 0.to_i
+brr = []
+len = a.length.to_i - 1
+for i in 0..len
+  for j in 0..len
+    if a[i].to_i == a[j]
+      brr.push((i.to_i - j).abs)
+    end
+  end
+end
+brr.delete(0)
+if brr.size.to_i == 0
+  puts "-1"
+else
+  p brr.min
+end
