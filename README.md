@@ -6,6 +6,8 @@ All the code are implemented with Ruby version 2.3.1
 
 This is a work in progress and more solutions will be added soon.
 
+All the programs have passed the given test cases successfully
+
 **Suggestions and contributions are welcome**
 
 Happy coding :)
