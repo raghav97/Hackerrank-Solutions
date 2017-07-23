@@ -1,3 +1,5 @@
+#Author: Raghav Vc
+
 n = gets.chomp.to_i
 arr = []
 n.times do
